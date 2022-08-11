@@ -6,12 +6,12 @@ import { useEffect, useState } from "react";
 import { Cards } from "./styled";
 
 const Type = () => {
-  const [info, setInfo] = useState();
+  const [type, setType] = useState();
 
   const getTypes = () => {
     axios.get("http://127.0.0.1:3456/type").then((res) => {
-      setInfo(res.data.emps);
-      console.log(info);
+      setType(res.data.Vtype);
+      console.log(type);
     });
   };
   useEffect(() => {

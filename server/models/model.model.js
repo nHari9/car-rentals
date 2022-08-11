@@ -11,3 +11,6 @@ const modelSchema = mongoose.Schema(
 const Vehmodel = mongoose.model("Vehmodel", modelSchema);
 
 module.exports = Vehmodel;
+
+
+// this models are to post the models in backend

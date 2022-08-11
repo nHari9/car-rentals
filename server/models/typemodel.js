@@ -11,3 +11,5 @@ const typeSchema = mongoose.Schema(
 const Vehtype = mongoose.model("Vehtype", typeSchema);
 
 module.exports = Vehtype;
+
+// this models are to post the type in backend
